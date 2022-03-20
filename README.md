@@ -1,65 +1,73 @@
 # Articles (Technical writing)
 
-> Description the project.
+> This is a project that is based on writing articles on the things i've learnt on my software development journey, in other to help others especially new developers, and also make the terms or technologies i write articles on more simplified for readers.
 
-## Built With
+## Published Articles
 
-- Major languages
-- Frameworks
-- Technologies used
+## Development
 
-## Live Demo (if available)
+- Clone the project
 
-[Live Demo Link](https://livedemo.com)
+```bash
+git clone https://github.com/Lanr3waju/articles
+```
 
-## Getting Started
+- Enter Project Path
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+```bash
+cd articles
+```
 
-To get a local copy up and running follow these simple example steps.
+- Install Dependencies
 
-### Prerequisites
+```bash
+npm install
+```
 
-### Setup
+You can check against Prettier:
 
-### Install
+```bash
+npm run format:check
+```
 
-### Usage
+and to have it actually fix (to the best of its ability) any format issues, run:
 
-### Run tests
+```bash
+npm run format
+```
 
-### Deployment
+## Technology Used
 
-## Authors
+- Markdown
 
-👤 **Author1**
+- Prettier
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- [codecademy](https://www.codecademy.com/)
 
-👤 **Author2**
+- [MDN](https://developer.mozilla.org/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- [w3schools](https://www.w3schools.com/)
+
+## 👤 Author
+
+### Abass Olanrewaju Wasiu
+
+- Github: [@Lanr3waju]https://github.com/Lanr3waju)
+- LinkedIn: [@Abass Olanrewaju](https://www.linkedin.com/in/abass-olanrewaju-abdul-wasi-53883422a/)
+- Twitter: [@abdul-wasi-img](https://twitter.com/abdul_wasi_img)
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
+## Show Your Support
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- [@bolah2009](http://github.com/bolah2009)
+- [@adejam](https://github.com/adejam)
 
 ## 📝 License
 

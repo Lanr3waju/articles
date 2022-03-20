@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-project",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "7.x",
+    "@babel/eslint-parser": "^7.x",
+    "hint": "^6.1.0",
+    "prettier": "1.18.2"
+  },
+  "scripts": {
+    "format": "npx prettier  --write **/*.{html,js,json,md,json,yaml,yml,jsx}",
+    "format:check": "npx prettier  --check **/*.{html,js,json,md,json,yaml,yml}"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ]
+}
